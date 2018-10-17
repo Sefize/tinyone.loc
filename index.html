@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome/css/brands.css">
+</head>
+<body>
+<section class="section-1">
+    <nav>
+        <ul class="navbar clearfix">
+            <li style="float: left">
+                <a href="#" class="logo">tinyone</a>
+            </li>
+            <li>
+                <a href="#">Features</a>
+            </li>
+            <li>
+                <a href="#">Support</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="columns">
+        <div class="left-column">
+            <h1>Inspire your inspiration</h1>
+            <p style="font-size: 25px">Simple to use for your app, products showcase and your inspiration</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit</p>
+            <br>
+            <div class="icons">
+                <i class="fab fa-apple fa-3x"></i>
+                <i class="fab fa-android fa-3x"></i>
+                <i class="fab fa-microsoft fa-3x"></i>
+            </div>
+        </div>
+        <div class="right-column">
+            <canvas id="ipad" class="ipad">
+
+            </canvas>
+        </div>
+    </div>
+</section>
+<section class="section-2"></section>
+<section class="section-3"></section>
+<script>
+    var canvas = document.getElementById("ipad");
+    var ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#FF0000";
+    ctx.fillRect(0,0,150,75);
+</script>
+</body>
+</html>

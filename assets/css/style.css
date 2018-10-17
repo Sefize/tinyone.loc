@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+body, html {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body section {
+    padding: 50px 20%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+/*p {*/
+    /*font-size: 25px;*/
+/*}*/
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navbar li {
+    display: inline-block;
+    float: right;
+}
+
+ul.navbar a {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+a.logo {
+    /*font-size: 35px !important;*/
+}
+
+.logo:before {
+    content: url("../images/logo.svg");
+    display: block;
+    width: 50px;
+    float: left;
+    padding-right: 15px;
+}
+
+.columns {
+    display: block;
+}
+
+.section-1 {
+    background-color: #fcdb00;
+    height: 100vh;
+}
+
+.section-2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.section-3 {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.columns {
+    display: inline-block;
+}
+
+.left-column {
+    float: left;
+    width: 50%;
+    /*padding-right: 20%;*/
+}
+.right-column {
+    float: right;
+    width: 50%;
+}
+
+/*.ipad {*/
+    /*background-color: white;*/
+    /*width: 350px;*/
+    /*height: 500px;*/
+    /*border-radius: 20px;*/
+/*}*/
+
+.icons i {
+    padding-right: 30px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
